@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('C:/Users/prann/OneDrive/Desktop/coffee website/images/login.avif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.register-box{
+    display: flex;
+    position: relative;
+    justify-content: left;
+    width: 50%;
+    height: auto;
+    background-image: url('C:/Users/prann/OneDrive/Desktop/coffee website/images/login bg.avif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 5% 5% 5% 5%;
+    border-radius: 25px;
+    box-shadow: -1px -1px 10px 10px rgb(104, 105, 105);
+}
+.register{
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+h1{
+    font-size: 100px;
+    color: aliceblue;
+    font-family: cursive;
+    text-align: center;
+    padding-bottom: 20px;
+}
+form{
+    padding-bottom: 10%;
+}
+label{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: cursive;
+}
+p{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: cursive;
+}.link{
+    text-decoration: none;
+    color:cornflowerblue;
+    transition: 0.5s;
+}
+.link:hover{
+    text-decoration: underline;
+}
+#user{
+    border-style: none;
+    width: 75%;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 20px
+}
+#pass1{
+    border-style: none;
+    width: 75%;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#pass2{
+    border-style: none;
+    width: 75%;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#user:focus{
+    box-shadow: 1px 1px 2px 2px white;
+}
+#pass1:focus{
+    box-shadow: 1px 1px 2px 2px white;
+}
+#pass2:focus{
+    box-shadow: 1px 1px 2px 2px white;
+}
+#submit{
+    width:50%;
+    height: 35px;
+    border-radius: 15px;
+    margin-left: 60px;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: lightskyblue;
+}
+#submit:hover{
+    box-shadow: 1px 1px 5px 5px white;
+}
+span{
+    color: red;
+}

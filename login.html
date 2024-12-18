@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOGIN PAGE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="login.css">
+        <script type="text/javascript" src="login.js"></script>
+    </head>
+    <body>
+        <div class="login-box">
+            <div class="login">
+                <h1>LOGIN</h1>
+                <form name="form">
+                    <label for="USER">USER NAME</label><br><br>
+                    <input type="text" id="email" name="email" required><br><br>
+                    <label for="PASSWORD">PASSWORD</label><br><br>
+                    <input type="password" id="password" name="password" required><br><br>
+                    <input type="checkbox" id="check">
+                    <label for="remember me">&nbsp;&nbsp;REMEMBER ME</label><br><br>
+                    <button id="submit" onclick="validation()" formaction="homepage.html">LOGIN</button>
+                </form>
+                <p class="reg">Don't have an account?&nbsp;&nbsp;<a class="link" href="register.html">Register</a></p>
+            </div>
+        </div>
+    </body>
+</html>
